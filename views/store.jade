@@ -1,0 +1,10 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  form(method = "POST",action = '/store/message')
+    input(type="text",size="40",name="message")
+    input(type="submit",value="post")
+
+  
