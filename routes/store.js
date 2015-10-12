@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var mongoDbUsername = process.env.mongoDbUsername;
+  var mongoDbUsername = process.env.mongoDbUsername;
 var mongoDbpwd = process.env.mongoDbPwd;
 
 var url = 'mongodb://'+ mongoDbUsername +':'+ mongoDbpwd +'@ds040898.mongolab.com:40898/messages';
