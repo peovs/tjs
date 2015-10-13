@@ -3,7 +3,7 @@ var router = express.Router();
   var mongoDbUsername = process.env.mongoDbUsername;
 var mongoDbpwd = process.env.mongoDbPwd;
 
-var url = 'mongodb://'+ mongoDbUsername +':'+ mongoDbpwd +'@ds040898.mongolab.com:40898/messages';
+var url = 'mongodb://'+ mongoDbUsername +':'+ mongoDbpwd +'@ds033734.mongolab.com:33734/storemessages';
 
 var MongoClient = require('mongodb').MongoClient;
 var assert = require('assert');
